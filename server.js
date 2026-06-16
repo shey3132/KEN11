@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // רשימת מספרי הטלפון המורשים להאזין לשידור (החלף במספרים האמיתיים שלך)
-const ALLOWED_PHONES = ['0501234567', '0529876543', '0541112223'];
+const ALLOWED_PHONES = ['0527673132', '0529876543', '0541112223'];
 
 app.all('/yemot-api', (req, res) => {
     // חוק ברזל: תגובה בטקסט פשוט בלבד עבור ימות המשיח
